@@ -1,0 +1,17 @@
+.wp-block-steady-paywall::before {
+  border-top-color: #FF7264
+}
+
+.wp-block-steady-paywall > span {
+  color: #FF7264
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce .mce-wp-steady-paywall {
+  width: 96%;
+  height: 16px;
+  display: block;
+  margin: 15px auto 0;
+  outline: 0;
+  cursor: default;
+  background: rgba(0, 0, 0, 0) url('../img/paywall-tag.png') repeat-y scroll center center;
+}
